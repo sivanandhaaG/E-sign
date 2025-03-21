@@ -1,0 +1,225 @@
+.grid-warper-main {
+  background: var(--indigo-800);
+  color: var(--white) !important;
+  padding: 2rem 8rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  padding: 6rem 0rem;
+}
+.iframe-warper {
+  display: flex;
+  justify-content: center;
+  /* padding: 5rem 10rem; */
+  flex-direction: column;
+  align-items: center;
+}
+.iframe-warper-action {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+.iframe-warper > iframe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 500px;
+}
+.docusign-clm-diff {
+  display: grid;
+  padding: 8rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.docusign-clm {
+  background: #f8f3f0;
+  padding-top: 2rem;
+}
+.docusign-clm > div > h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.docusign-clm-diff-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.docusign-clm-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8rem;
+  align-items: center;
+}
+.docusign-clm-diff-2 > div > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid-warper-main-2 {
+  padding: 2rem 8rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.grid-warper-main-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.featured-integrations {
+  background: #f8f3f0;
+  padding: 8rem;
+}
+
+.learn-more-about {
+  padding: 8rem;
+  background: #f8f3f0;
+  display: flex;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 470px) {
+  .iframe-warper {
+    padding: 1rem;
+    display: block;
+  }
+  .iframe-warper > iframe {
+    height: 400px;
+    width: 100%;
+  }
+  .iframe-warper-action {
+    display: flex;
+    justify-content: center;
+  }
+  .iframe-warper-action > button {
+    width: 100%;
+    text-align: center;
+  }
+  .docusign-clm-diff {
+    padding: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .docusign-clm > div > h1 {
+    padding: 1rem;
+  }
+  .docusign-clm-2 {
+    padding: 1rem;
+  }
+  .docusign-clm-diff-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-warper-main {
+    padding: 1rem;
+  }
+  .features-main-marging {
+    margin: 0 !important;
+  }
+  .grid-warper-main-2 {
+    padding: 1rem;
+  }
+  .featured-integrations {
+    padding: 1rem;
+  }
+  .learn-more-about {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .iframe-warper {
+    padding: 1rem;
+  }
+  .features-main-div-2 {
+    padding: 1rem;
+    gap: 2rem;
+  }
+  .features-main-div-1 {
+    padding: 1rem;
+  }
+  .docusign-clm-diff {
+    padding: 1rem;
+  }
+  .docusign-clm-2 {
+    padding: 1rem;
+  }
+  .grid-warper-main{
+    padding: 1rem;
+  }
+  .grid-warper-main-2{
+    padding: 1rem;
+  }
+  .featured-integrations{
+    padding: 1rem;
+  }
+  .learn-more-about{
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .iframe-warper {
+    padding: 1rem;
+    display: block;
+  }
+  .iframe-warper > iframe {
+    height: 400px;
+    width: 100%;
+  }
+  .iframe-warper-action {
+    display: flex;
+    justify-content: center;
+  }
+  .iframe-warper-action > button {
+    width: 100%;
+    text-align: center;
+  }
+  .docusign-clm-diff {
+    padding: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .docusign-clm > div > h1 {
+    padding: 1rem;
+  }
+  .docusign-clm-2 {
+    padding: 1rem;
+  }
+  .docusign-clm-diff-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-warper-main {
+    padding: 1rem;
+  }
+  .features-main-marging {
+    margin: 0 !important;
+  }
+  .grid-warper-main-2 {
+    padding: 1rem;
+  }
+  .featured-integrations {
+    padding: 1rem;
+  }
+  .learn-more-about {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

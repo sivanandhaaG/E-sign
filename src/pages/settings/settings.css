@@ -1,0 +1,66 @@
+.settings-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.heading-welcome{
+    font-size: 1rem;
+    font-weight: 350;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+/* Custom styling for the settings tabs */
+.custom-tabs {
+    display: flex;
+    border-bottom: 2px solid #e0e0e0; /* Light gray border */
+    padding-bottom: 3px;
+    justify-content: flex-start; /* Aligns tabs next to each other */
+}
+
+.custom-tabs .nav-item {
+    flex: unset; /* Prevents equal spacing */
+}
+
+.custom-tabs .nav-link {
+    color: #667085; /* Normal tab color */
+    font-size: 16px;
+    font-weight: 400; /* Reduced font weight */
+    padding: 8px 12px; /* Adjusted for a tighter layout */
+    border: none !important;
+    background: transparent !important;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Ensure active tab heading color & remove border/background */
+.custom-tabs .nav-link.active {
+    color: #6941C6 !important; /* Active tab color */
+    font-weight: 500; /* Reduced font weight */
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Active tab underline */
+.custom-tabs .nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background: #6941C6; /* Active tab underline color */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Additional Styling for Active Tab Parent */
+.custom-tabs .nav-item .nav-link.active {
+    color: #6941C6 !important; /* Ensures parent text color also changes */
+}

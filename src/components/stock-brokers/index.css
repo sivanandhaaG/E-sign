@@ -1,0 +1,119 @@
+.stock-brokers-cards {
+  padding: 5rem;
+  background: var(--indigo-200);
+}
+.stock-brokers-cards > h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: var(--heading-font-h1);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.stock-brokers-cards-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding-top: 3rem;
+}
+
+.stock-brokers-cards-main > div {
+  border: none !important;
+}
+.stock-brokers-cards-main > div > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+  background-image: linear-gradient(
+    354deg,
+    rgba(134, 68, 240, 0.35),
+    #fff 100%
+  ) !important ;
+  padding: 2rem;
+}
+.stock-brokers-cards-main > div > div {
+  padding: 1rem;
+}
+.stock-brokers-cards-main > div > div > h4 {
+  color: var(--text);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 1rem;
+}
+.cutsom-color-text {
+  background: rgba(134, 68, 240, 0.35);
+  padding: 2rem;
+  margin: 1rem;
+}
+.cutsom-color-text > div > p {
+  margin-bottom: 0 !important;
+  font-size: 1rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.cutsom-color-text-2 {
+  background: #eafff4;
+  padding: 2rem;
+  margin: 1rem;
+}
+.cutsom-color-text-2 > div > p {
+  margin-bottom: 0 !important;
+  font-size: 1rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.cutsom-color-text-2 > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.cutsom-color-text > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 980px) {
+  .stock-brokers-cards{
+    padding: 1rem;
+  }
+  .stock-brokers-cards-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .stock-brokers-cards{
+    padding: 1rem;
+  }
+  .stock-brokers-cards-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .stock-brokers-cards{
+    padding: 1rem;
+  }
+  .stock-brokers-cards-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}

@@ -1,0 +1,35 @@
+.ant-table-div {
+  margin-top: 30px;
+}
+.common-table-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-table-cell {
+  text-align: center !important;
+}
+
+.custom-table .ant-table-body {
+  min-height: 30vh !important;
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-start; */
+}
+
+.custom-table .ant-table-thead > tr > th {
+  background: rgb(238, 242, 255) !important;
+}
+
+.custom-table {
+  width: 100%;
+}
+
+
+.custom-table {
+  width: 100% !important;
+}
+.ant-table-wrapper {
+  width: 100%;
+
+}

@@ -1,0 +1,52 @@
+.custom-parent {
+    width: 100%;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+  .custom-file-upload {
+    text-align: center;
+    padding: 0.5rem;
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .custom-file-upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .file-text-color{
+    color:var(--indigo-700);
+  }
+
+  .custom-uploaded-files-list{
+    font-family: "Inter-Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--slate-700);
+
+  }
+
+  
+  .final-list-name{
+    font-family: "Inter-Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--slate-700);
+
+  }

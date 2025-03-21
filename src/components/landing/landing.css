@@ -1,0 +1,26 @@
+.landing-text {
+  font-family: "Inter-ExtraBold";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.break-color {
+  color: var(--indigo-600);
+}
+
+.break-color-not {
+  color: var(--slate-900);
+}
+
+.landing-subtitle {
+  font-family: "Inter-Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--slate-500);
+}

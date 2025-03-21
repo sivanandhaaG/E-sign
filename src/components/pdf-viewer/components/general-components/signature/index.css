@@ -1,0 +1,89 @@
+.signature {
+  top: 0;
+  left: 0;
+  /* width: 100px;
+  height: 100px; */
+  z-index: 1;
+  position: "relative";
+  background-color: #eff6ff;
+  border: 2px dotted #818cf8;
+  color: #4f46e5;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+.signature__modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signature__styles {
+  height: 90px;
+  overflow: auto;
+  overflow-x: scroll;
+  display: flex;
+
+  gap: 45px;
+  flex-direction: row;
+  justify-content: space-around;
+  scrollbar-width: none;
+}
+
+.signature__styles__image:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.signature__font:hover {
+  /* background-color: #f5f5f5; */
+  cursor: pointer;
+  /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1); */
+  /* transform: scale(1.1); */
+}
+.tab {
+  width: 440px;
+}
+
+.lineStyle {
+  border: 3px solid black;
+  width: 40px;
+  height: 70px;
+  border-radius: 15px 0px 0px 15px;
+  border-right: none;
+}
+.signedByStyle {
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(148, 149, 149);
+}
+.previewContainer {
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 6px;
+}
+.previewContainer > div {
+  display: flex;
+  width: 200px;
+}
+
+.signatureStyle {
+  font-size: 25px;
+  padding-left: 15px;
+}
+.SignatureModalBtn {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.containerStyle {
+  border: 2px solid rgb(222, 226, 230);
+  padding: 15px;
+  border-radius: 6px;
+}

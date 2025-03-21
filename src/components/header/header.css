@@ -1,0 +1,138 @@
+.fixed-css {
+  position: fixed;
+  z-index: 999;
+  background-color: white;
+  cursor: pointer;
+  padding-top: 10px;
+  border-bottom: 1px solid var(--slate-200);
+}
+
+.header-text {
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--slate-900);
+  padding: 8px 16px;
+  gap: 8px;
+}
+
+a:hover {
+  color: var(--indigo-600) !important;
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  float: right;
+}
+
+.active-link {
+  color: var(--gray-50);
+  background-color: var(--indigo-600);
+  font-family: "Inter-Regular";
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  gap: 4px;
+}
+
+.active-link:hover {
+  color: var(--gray-50) !important;
+}
+
+/* Mobile view */
+
+.navbar-toggler-icon {
+  background-image: url("../../assets/images/general/menubar.png") !important;
+  width: 2em;
+  height: 2em;
+}
+
+.my-style-css {
+  width: 92%;
+}
+.MenuBarsUL {
+  list-style: none;
+  line-height: 30px;
+  height: 100%;
+  background-color: rgb(13, 110, 253);
+  border-radius: 25px;
+  padding-top: 20px;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.3),
+    0 -3px px rgba(255, 255, 255, 0.8) inset;
+}
+.MenuTitle {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.MenuBarsUL li {
+  color: white;
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 17px;
+  padding-left: 20px;
+  border-radius: 30px 0px 0px 30px;
+}
+.MenuBarsUL li:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 -3px 5px rgba(255, 255, 255, 0.8) inset;
+}
+
+.dashboard-header {
+  width: 94% !important;
+}
+
+@media only screen and (max-width: 1664px) {
+  .header-profile-width {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 1364px) {
+  .my-style-css {
+    width: 90% !important;
+  }
+  .header-profile-width {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .my-style-css {
+    width: 88% !important;
+  }
+  .header-profile-width {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .my-style-css {
+    width: 82% !important;
+  }
+  .header-profile-width {
+    width: 30px;
+  }
+  .dashboard-header {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .my-style-css {
+    width: 40% !important;
+  }
+  .header-profile-width {
+    width: 22px;
+  }
+}

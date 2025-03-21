@@ -1,0 +1,435 @@
+.esign-container {
+  margin-top: 60px;
+  width: 100%;
+  padding-top: 1rem;
+  overflow: auto;
+}
+.topbanner-container {
+  background-image: linear-gradient(354deg, rgba(134, 68, 240, 0.35), #fff 59%);
+  position: relative;
+  height: 31rem;
+  padding: 5rem 8rem;
+}
+.topbanner-container > h1 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: var(--heading-font-h1);
+  font-weight: 700;
+  line-height: 1.1;
+}
+.esign-card-top-wrapper {
+  position: absolute;
+  bottom: -150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.esign-card-featuers {
+  padding: 1rem;
+  background-image: linear-gradient(354deg, rgba(134, 68, 240, 0.35), #fff 59%);
+  border-radius: 18px !important;
+  border: none;
+  height: 400px;
+}
+
+.esign-card-featuers > div p {
+  border: 1px solid var(--emerald-600);
+  font-family: "Inter-Medium";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--black);
+  background-color: white;
+  border-radius: 10px;
+  padding: 8px 4px;
+  margin: 0;
+}
+.esign-card-featuers > div > div {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 1rem;
+}
+
+.card-tranprint {
+  height: 400px;
+  padding: 1rem;
+  margin: 20px;
+  border-radius: 20px;
+  border: none;
+  height: 400px;
+}
+
+.card-tranprint > div > div {
+  width: 260px;
+  height: 200px;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card-tranprint > div > div > p {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.3;
+  padding-top: 2.5rem;
+}
+.esign-card-featuers-hed {
+  margin-top: 10px;
+  margin-bottom: 18px;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  font-weight: 600 !important; 
+  text-align: center;
+}
+
+.primary-light-background {
+  background-color: var(--indigo-400);
+  border-radius: 20px;
+  height: 600px;
+}
+.img-adhar > img {
+  background: var(--white);
+  width: 200px;
+  object-fit: contain;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.esign-card-featuers-image {
+  background: none !important;
+  box-shadow: none !important;
+  border: none;
+  height: 100%;
+  padding: 1rem;
+}
+
+.businesses-info {
+  margin-top: 140px;
+  padding: 5rem 8rem;
+}
+.businesses-info > h1 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: var(--heading-font-h1);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.esing-businesses-info-container {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 4rem;
+  display: flex;
+  animation: scroll 10s linear infinite;
+  flex-direction: row;
+  gap: 4rem;
+  flex-wrap: nowrap;
+}
+
+.esigned-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: var(--indigo-200);
+  padding: 5rem 8rem 0 8rem;
+  gap: 1rem;
+}
+.esigned-info > div {
+  border-radius: 20px;
+  height: 460px;
+  padding: 3rem;
+  border: none;
+  box-shadow: 0 2px 10px rgb(147 46 226 / 10%);
+  position: relative;
+  font-family: sans-serif;
+}
+.esigned-info > div > h1 {
+  box-sizing: border-box;
+  color: var(--text);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.esigned-info-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.esigned-info-img > img {
+  height: 20rem;
+  width: 20rem;
+  object-fit: contain;
+}
+
+.esigned-info-2 {
+  background: var(--indigo-200);
+  height: auto;
+  padding: 8rem;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem;
+}
+
+.esigned-info-2 > div > h1 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: var(--heading-font-h1);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.try-zilla-sign-div {
+  border: 1px solid var(--indigo-600);
+  height: 800px;
+  border-radius: 20px;
+}
+.try-zilla-sign-div h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.try-zilla-sign-div .border-dark {
+  border-radius: 20px 20px 0px 0px;
+  color: #fff;
+  background: var(--indigo-600);
+  padding: 0.2rem 1rem;
+  align-items: center;
+}
+.try-zilla-sign-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  padding: 1rem;
+  background-color: var(--indigo-200);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.try-form {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+.try-form > form > p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 20px;
+}
+.try-form-h1 {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.try-zilla-sign-form {
+  padding: 1rem;
+}
+.esign-card-featuers-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: var(--indigo-800);
+  gap: 2rem;
+  color: var(--white);
+  padding: 5rem 8rem;
+  margin-top: 5rem;
+}
+.esign-card-f {
+  border-radius: 16px !important;
+  height: 100%;
+  width: 100%;
+  background: var(--white-text);
+  padding: 1rem;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.esign-card-f > p {
+  /* font-size: 1rem;
+  font-weight: 500;
+  color: #292d34;
+  font-family: sans-serif; */
+}
+.esign-card-f > p > span {
+  color: var(--indigo-600);
+}
+.header > h1 {
+  color: var(--white-text);
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.2px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 700;
+}
+.header > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-ligh) !important;
+}
+
+.esign-card-featuers-3 {
+  background: var(--mainHead);
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5rem 8rem;
+}
+
+.esign-card-featuers-form-div {
+  background: var(--indigo-800);
+  color: var(--white);
+  padding: 5rem 8rem;
+  display: flex;
+  position: relative;
+}
+
+.esign-card-featuers-3 > h1 {
+  color: var(--white-text);
+  font-size: var(--heading-font-h1);
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.esign-card-featuers-form-div > div > h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.esign-card-featuers-form-div-form {
+  position: absolute;
+  right: -10px;
+  top: -160px;
+  padding: 2rem;
+  background: var(--indigo-200) !important;
+  width: 50%;
+  border-radius: 16px !important;
+}
+
+.faq-1 {
+  padding: 5rem 8rem;
+}
+.faq-1 > div > h1 {
+  display: flex;
+  justify-content: center;
+}
+.faq-1 > div {
+  background: var(--indigo-200);
+  padding: 2rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 980px) {
+  .esign-card-featuers-image {
+    display: none !important;
+  }
+  .esigned-info-2 {
+    padding: 1rem !important;
+  }
+  .esigned-info {
+    padding: 1rem;
+  }
+  .esigned-info > div {
+    padding: 1rem;
+  }
+  .esign-card-featuers-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .esign-card-featuers-form-div {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .esign-card-featuers-form-div-form {
+    position: relative;
+    right: inherit;
+    top: inherit;
+    width: 100%;
+  }
+  .faq-1 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .esign-card-featuers-image {
+    display: none !important;
+  }
+  .esign-card-top-wrapper {
+    position: absolute;
+    bottom: -140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .esigned-info-2 {
+    padding: 1rem !important;
+  }
+  .topbanner-container {
+    padding: 1rem;
+  }
+  .businesses-info {
+    padding: 1rem;
+  }
+  .esigned-info {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+  }
+  .esigned-info-2 {
+    display: none;
+  }
+  .esign-card-featuers-2 {
+    padding: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .esign-card-featuers-3 {
+    padding: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .esign-card-featuers-form-div {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .esign-card-featuers-form-div-form {
+    position: relative;
+    right: inherit;
+    top: inherit;
+    width: 100%;
+  }
+  .faq-1 {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .card-tranprint {
+    display: none;
+  }
+  .esign-card-featuers-image {
+    display: none !important;
+  }
+}

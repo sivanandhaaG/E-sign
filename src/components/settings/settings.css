@@ -1,0 +1,58 @@
+.nav-tabs .nav-link  {
+    font-family: "Inter-Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--slate-500);
+    background-color:transparent !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--indigo-700);
+    background-color:transparent !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: var(--indigo-700) !important;
+    border-bottom: 2px solid var(--indigo-700);
+}
+
+.nav-tabs .nav-link:hover  {
+    color: var(--indigo-700);
+    background-color:transparent !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: var(--indigo-700) !important;
+    border-bottom: 2px solid var(--indigo-700);
+}
+
+.nav-tabs .nav-link{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid var(--slate-200);
+
+}
+
+.personal-profile-name{
+    font-family: "Inter-Medium";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--gray-900);
+}
+
+.personal-email-name{
+    font-family: "Inter-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--gray-500);
+}

@@ -1,0 +1,268 @@
+/* Inter Font */
+
+@font-face {
+  font-family: "Inter-Black";
+  src: url("../src/assets/fonts/static/Inter-Black.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../src/assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("../src/assets/fonts/static/Inter-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-ExtraLight";
+  src: url("../src/assets/fonts/static/Inter-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../src/assets/fonts/static/Inter-Light.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../src/assets/fonts/static/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../src/assets/fonts/static/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../src/assets/fonts/static/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Inter-Thin";
+  src: url("../src/assets/fonts/static/Inter-Thin.ttf");
+}
+
+/* Mulish  Font */
+
+@font-face {
+  font-family: "Mulish-Black";
+  src: url("../src/assets/fonts/static/Mulish-Black.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-BlackItalic";
+  src: url("../src/assets/fonts/static/Mulish-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-Bold";
+  src: url("../src/assets/fonts/static/Mulish-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-BoldItalic";
+  src: url("../src/assets/fonts/static/Mulish-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-ExtraBold";
+  src: url("../src/assets/fonts/static/Mulish-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-ExtraBoldItalic";
+  src: url("../src/assets/fonts/static/Mulish-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-ExtraLight";
+  src: url("../src/assets/fonts/static/Mulish-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-ExtraLightItalic";
+  src: url("../src/assets/fonts/static/Mulish-ExtraLightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-Italic";
+  src: url("../src/assets/fonts/static/Mulish-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-Light";
+  src: url("../src/assets/fonts/static/Mulish-Light.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-Medium";
+  src: url("../src/assets/fonts/static/Mulish-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-MediumItalic";
+  src: url("../src/assets/fonts/static/Mulish-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-Regular";
+  src: url("../src/assets/fonts/static/Mulish-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-SemiBold";
+  src: url("../src/assets/fonts/static/Mulish-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-SemiBoldItalic";
+  src: url("../src/assets/fonts/static/Mulish-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: "Andina-Regular";
+  src: url("../src/assets/fonts/static/Andina-Demo.otf");
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-light: #130032bf;
+  --red: #eb2127;
+  --blue: #2c3d9a;
+  --white: #fff;
+  --mainHead: #f9f9f9;
+  --yellow: #fec84b;
+  --black: #000000;
+  --primary-50: #f9f5ff;
+  --primary-600: #7f56d9;
+  --primary-700: #6941c6;
+  --warning-50: #fffaeb;
+  --warning-700: #b54708;
+  --success-50: #ecfdf3;
+  --success-700: #027a48;
+  --error-50: #fef3f2;
+  --error-700: #b42318;
+  --indigo-50: #eef2ff;
+  --indigo-200: #f5f8ff;
+  --indigo-400: #818cf8;
+  --indigo-: #becff5;
+  --indigo-600: #4f46e5;
+  --indigo-700: #4338ca;
+  --indigo-800: #26065d;
+  --slate-50: #f8fafc;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-500: #64748b;
+  --slate-700: #334155;
+  --slate-900: #0f172a;
+  --gray-50: #f9fafb;
+  --gray-300: #d0d5dd;
+  --gray-500: #667085;
+  --gray-700: #344054;
+  --gray-800: #1f2937;
+  --gray-900: #101828;
+  --red-50: #fef2f2;
+  --red-700: #b91c1c;
+  --emerald-600: #059669;
+  --bt-font-size: 16px;
+  --transitons: 0.2s;
+  --heading-font-h1: 30px;
+  --subheading-font-size: 18px;
+  --medium-font:1.25rem
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  /* color: var(--pink); */
+  cursor: pointer;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* button Disabled  */
+
+.btn.disabled,
+.btn:disabled,
+.form-select:disabled {
+  color: var(--slate-900);
+  background-color: var(--slate-200);
+  border-color: var(--slate-200);
+}
+
+.react-pdf__Page__textContent.textLayer {
+  display: none;
+  height: "0px" !important;
+}
+
+.react-pdf__Page__annotations .annotationLayer {
+  height: "none" !important;
+}
+.custom-modal-width .modal-dialog {
+  max-width: 900px !important; 
+  width: 90% !important; 
+}
+
+.custom-modal-width .modal-content {
+  padding: 20px;
+}
+
+/* stepper button */
+._3uApM  {
+  display: none !important;
+}
+
+
+/* Hide the menu icon on larger screens */
+.mobile-menu-icon {
+  display: none;
+}
+.routers-container{
+margin-left: 75px;
+}
+
+/* Show the menu icon only for mobile screens */
+@media screen and (max-width: 768px) {
+  .mobile-menu-icon {
+    display: block;
+  }
+  .routers-container{
+    margin-left: 0px;
+    }
+}
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}

@@ -1,0 +1,109 @@
+.dropzone {
+  background: #fcfaff !important;
+  border: 1px solid #d6bbfb !important;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropzone:hover {
+  background-color: #f0f0f0;
+  border: 3px solid #d6bbfb !important;
+}
+
+.dropzone input {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-icon-image{
+  position: absolute;
+  right: 0%;
+  bottom: -34%;
+}
+.selected-image {
+  padding-block: 20px;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 12px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #9E77ED
+
+}
+.selected-image-2 {
+  padding-block: 20px;
+  border-radius: 8px;
+  padding: 12px;
+  align-items: center;
+  display: flex;
+  height: 96px;
+  justify-content: space-between;
+  border: 1px solid #fda29b;
+  background: #fffbfa;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.alert {
+  color: #d92d20 !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+.selected-image > p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.file-name {
+  font-family: "Inter-Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #4a576b;
+}
+.file-size {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 0;
+  color: #667085;
+}
+.selected-image img {
+  max-width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.selected-image button {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.try-again {
+  color: #d92d20;
+  font-size: small;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,60 @@
+.rowContainer {
+  padding-block: 1.5rem;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.label {
+  color: #334155;
+  font-weight: 400;
+}
+
+.labelDescription {
+  color: #64748b;
+}
+
+.formSection {
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.circleIcon {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.subHeaderLine {
+  text-align: center;
+  position: relative;
+  margin: 20px 0;
+}
+
+.subHeaderLine::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e2e8f0;
+  z-index: 1;
+}
+
+.subHeaderText {
+  background: white;
+  padding:20px;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  color: #6b7280;
+}
+.settings-signature-tab {
+  border: 1px solid #dee2e6;
+}
+

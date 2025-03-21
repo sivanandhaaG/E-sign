@@ -1,0 +1,7 @@
+.featured-card {
+  background: #f8f3f0;
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}

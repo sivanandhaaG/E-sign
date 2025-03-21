@@ -1,0 +1,238 @@
+.zila-sign-int-container {
+  margin-top: 40px;
+  padding-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.zila-sign-int-top-c {
+  grid-column: 7 / span 5;
+  align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  justify-content: center;
+  height: fit-content;
+}
+
+.zila-sign-int-top-wrapper {
+  padding: 0rem 8rem;
+  align-items: center;
+}
+
+.get-more-heading-warper {
+  padding: 0rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+.zila-sign-int-h1 {
+  font-size: var(--heading-font-h1);
+  font-weight: 400;
+  letter-spacing: 1.5;
+  line-height: 1.08;
+  -webkit-font-smoothing: antialiased;
+  max-width: 80%;
+}
+
+.zila-sign-int-top-h2 {
+  font-size: var(--medium-font);
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  line-height: 1.5;
+  color: var(--text-light) !important;
+}
+
+.zila-sign-int-h3 {
+  font-size: var(--heading-font-h1);
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 0rem;
+  padding: 1rem;
+  padding-bottom: 0rem;
+  font-weight: 700;
+}
+
+.zila-sign-int-para-1 {
+  font-size: var(--medium-font);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.zila-sign-int-patners {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.zila-sign-int-patners-name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  line-height: 1.24;
+  margin-bottom: 0rem;
+}
+.zila-sign-int-patners-para {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+.cards-wrapper {
+  display: grid;
+  gap: 1rem;
+  padding: 0rem 8rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.zila-sign-int-patners-learn-more {
+  color: blue;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding-top: 0;
+  flex-direction: none;
+  display: inline-flex;
+  padding: 0;
+}
+
+.slautions-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f8f3f0;
+  padding: 8rem;
+  margin-top: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rating-text {
+  line-height: 1em;
+  margin: 0px 0px 0.7em;
+  width: auto;
+  font-size: var(--medium-font);
+  box-sizing: border-box;
+  font-family: DSIndigo, Helvetica, Arial, sans-serif;
+  align-items: center;
+  padding-top: 2rem;
+  font-weight: 600;
+}
+@media only screen and (max-width: 980px) {
+  .zila-sign-int-top-wrapper {
+    padding: 1rem;
+  }
+  .zila-sign-int-container {
+    padding: 1rem;
+    padding-top: 40px;
+  }
+  .zila-sign-int-top-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .zila-sign-int-h1 {
+    padding: 0;
+  }
+  .zila-sign-int-para-1 {
+    padding: 1rem;
+  }
+  .zila-sign-int-container > div > div > h1 {
+    display: flex;
+    justify-content: start;
+  }
+  .slautions-showcase {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .get-more-heading-warper {
+    margin-top: 0rem;
+    padding: 1rem;
+  }
+  .zila-sign-int-top-wrapper {
+    padding: 1rem;
+  }
+  .zila-sign-int-container {
+    padding: 1rem;
+    padding-top: 40px;
+  }
+  .zila-sign-int-top-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .zila-sign-int-h1 {
+    padding: 0;
+    font-size: var(--medium-font);
+    max-width: 100%;
+  }
+  .zila-sign-int-para-1 {
+    padding: 1rem;
+    text-align: center;
+  }
+  .zila-sign-int-container > div > div > h1 {
+    display: flex;
+    justify-content: start;
+  }
+  .slautions-showcase {
+    padding: 1rem;
+  }
+  .cards-wrapper {
+    padding: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .zila-sign-int-top-h2 {
+    font-size: var(--bt-font-size);
+  }
+  .zila-sign-int-h3 {
+    text-align: center !important;
+  }
+  .zila-sign-int-patners {
+    width: auto;
+  }
+  
+}
+@media only screen and (max-width: 470px) {
+  .cards-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+  }
+  .zila-sign-int-h3 {
+    font-size: var(--medium-font);
+  }
+  .zila-sign-int-top-wrapper {
+    padding: 1rem;
+  }
+  .zila-sign-int-container {
+    padding: 1rem;
+    padding-top: 60px;
+  }
+  .zila-sign-int-top-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .zila-sign-int-h1 {
+    padding: 0;
+  }
+  .zila-sign-int-para-1 {
+    padding: 1rem;
+    font-size: var(--bt-font-size);
+  }
+  .zila-sign-int-container > div > div > h1 {
+    display: flex;
+    justify-content: start;
+  }
+  .slautions-showcase {
+    padding: 1rem;
+  }
+ 
+  .zila-sign-int-patners {
+    width: auto;
+  }
+}

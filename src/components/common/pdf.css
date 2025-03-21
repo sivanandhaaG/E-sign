@@ -1,0 +1,5 @@
+.sideHighlightedData:hover
+{
+    background-color: rgb(247, 246, 246);
+    transform: scale(1.01);
+}

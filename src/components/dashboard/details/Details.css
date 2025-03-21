@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  .AuditTables {
+    overflow-x: scroll;
+  }
+  .AuditTrailHeader,
+  .DetailsTable {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.DetailsTable {
+  display: flex;
+  gap: 200px;
+}
+.AuditTrialCard {
+  border: 10px solid #e0e0e0;
+}
+
+.spaced-row {
+  height: 15px; /* Adds vertical spacing */
+}
+
+.spaced-row td {
+  padding: 10px 0; /* Adds space inside the cells */
+}
+/* .DocInFoTable {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} */
+
+.Audit_details_tiyle {
+  /* width: 700px !important; */
+}
+
+.auditDetail {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(104, 102, 102);
+}
+.Audit_Tr {
+  background-color: #ffff;
+}
+.Audit_Tr:hover {
+  background-color: #f3f7f9;
+}
